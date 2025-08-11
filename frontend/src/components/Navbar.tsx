@@ -20,7 +20,6 @@ export default function Navbar() {
   };
 
   const navLinks = [
-    { href: "/dashboard", label: "Dashboard" },
     { href: "/new-content", label: "New Content" },
     { href: "/library", label: "My Library" },
   ];
