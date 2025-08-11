@@ -15,7 +15,7 @@ Promptly is a full-stack AI-powered content generation app that lets you:
 - [Supabase Python Client](https://github.com/supabase-community/supabase-py)
 - [OpenAI API](https://platform.openai.com/)
 - [Stable Diffusion API](https://stablediffusionapi.com/)
-
+“Image generation is powered by the Stability AI API (free tier). Due to usage limits, the demo may return pre-generated images.”
 ---
 
 ## 📂 Project Structure
