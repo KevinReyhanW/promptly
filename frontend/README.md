@@ -12,36 +12,39 @@ A modern web application built with Next.js for AI-powered content generation.
 ## 🛠️ Getting Started
 
 1. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-```
+
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
 2. Set up environment variables:
-```bash
-cp .env.example .env.local
-# Add your Supabase credentials
-```
+
+    ```bash
+    cp .env.example .env.local
+    # Add your Supabase credentials
+    ```
 
 3. Run the development server:
-```bash
-npm run dev
-# or
-yarn dev
-```
+
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## 📁 Project Structure
 
-```
-src/
-├── app/           # App router pages
-├── components/    # React components
-├── lib/          # Utility functions
-└── styles/       # CSS styles
-```
+    ```
+    src/
+    ├── app/           # App router pages
+    ├── components/    # React components
+    ├── lib/          # Utility functions
+    └── styles/       # CSS styles
+    ```
 
 ## 🔧 Development
 
