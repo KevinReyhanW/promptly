@@ -43,10 +43,20 @@ npm run dev
 ```
 
 ### 3. Backend
+For Windows:
 ```bash
 cd backend
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+For Unix/MacOS:
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
@@ -56,13 +66,13 @@ uvicorn main:app --reload
 ## 🔑 Environment Variables
 
 **Frontend (`frontend/.env.local`)**
-```
+```plaintext
 NEXT_PUBLIC_SUPABASE_URL=...
 NEXT_PUBLIC_SUPABASE_ANON_KEY=...
 ```
 
 **Backend (`backend/.env`)**
-```
+```plaintext
 OPENAI_API_KEY=...
 STABLE_DIFFUSION_API_KEY=...
 SUPABASE_URL=...
